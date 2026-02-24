@@ -2,23 +2,27 @@
 
 ## Research Question
 
-Are cellulosome and homologous proteins widely exist in Bacteroidota? What are the functions of the homologous proteins if they are not forming cellulosome?
-
+Are cellulosome and homologous proteins widely present in Bacteroidota? What are the functions of homologous proteins if they are not forming cellulosomes?
 
 ## Sources to Search
-Google Scholar, PubMed, NCBI, uniprot, PDB
+Google Scholar, PubMed, NCBI, UniProt, PDB
 
 ## Key Topics / Keywords
-cellulosome, scaffold proteins
+- Primary: cellulosome, scaffoldin, cohesin, dockerin, Bacteroidota, Bacteroidetes
+- Secondary: polysaccharide utilization loci (PUL), CAZymes, carbohydrate-active enzymes, SusC, SusD
+- Tertiary: gut microbiome polysaccharide degradation, glycoside hydrolases Bacteroidetes, outer membrane complexes Bacteroidota
+- Organism-specific: Bacteroides, Prevotella, Porphyromonas, Tannerella, Alistipes
 
 ## Inclusion Criteria
-From a broader view, as long as they are talking about something related to cellulosome proteins they're fine.
+- Papers discussing cellulosome proteins, scaffoldin/cohesin/dockerin domains, or homologous proteins in Bacteroidota
+- Papers on polysaccharide degradation complexes in Bacteroidota that may be functionally analogous to cellulosomes
+- Structural/functional studies of CAZyme complexes in gut Bacteroidetes
+- Phylogenetic or genomic surveys of cellulosome-like proteins
 
-
-## Output
- - give me a literature review results listing the literatures that are important in each year (the titles and corresponding abstract). No more than 5 papers per year. the titles should be the years (2016-2026) and the papers will be under those titles.
- - a figrue showing the trend of papers in this field.
- - a phylogeny tree of the existance of cellulosome and homologous proteins in bacteroidota.
- - a spreadsheet to list top 20 most interesting proteins to investigate more under this criteria. Include basic informations about this protein like the original literacture link, links to ncbi/uniprot/pdb, notes about why they are interesting.
+## Output Files
+1. `literature_review.md` — Literature review by year (2016–2026), up to 5 key papers per year with title + abstract
+2. `trend_figure.py` + `trend_figure.png` — Python script and figure showing publication trend
+3. `phylogeny_tree.py` + `phylogeny_tree.png` — Phylogenetic distribution of cellulosome/homologous proteins in Bacteroidota
+4. `top_proteins.csv` — Spreadsheet of top 20 most interesting proteins to investigate, with links to NCBI/UniProt/PDB and notes
 
 ## Execute the plan
